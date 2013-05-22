@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Converts your CentOS 6.2 to Scientific Linux 6.2 (x86_64 only)
-DISTRO_ARCH=x86_46 # i386 or x86_64
+DISTRO_ARCH=x86_64 # i386 or x86_64
 
 # Install Yum Repo
 rpm -ivh http://ftp.scientificlinux.org/linux/scientific/6x/${DISTRO_ARCH}/os/Packages/yum-conf-sl6x-1-1.noarch.rpm
